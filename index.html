@@ -7,36 +7,41 @@
 <style>
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
     background: #ffffff;
-    color: #111;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     text-align: center;
+    font-family: Arial, sans-serif;
 }
-h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
+.container {
+    max-width: 700px;
+    padding: 20px;
+}
+img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 40px;
 }
 p {
+    color: #111;
     font-size: 18px;
     margin: 8px 0;
 }
 a {
-    color: black;
+    color: #111;
 }
 </style>
 </head>
 <body>
-<div>
-<h1>Helt Sjef om Morran</h1>
-<p>Hverdager 07:00–08:00</p>
-<p>En ny låt hver morgen.</p>
-<p>Send ønskelåter til</p>
-<p><a href="mailto:heltsjef@morran.no">heltsjef@morran.no</a></p>
-<p style="margin-top:20px;">Merch kommer snart.</p>
+<div class="container">
+    <img src="logo.png" alt="Helt Sjef om Morran logo">
+    <p>Hverdager 07:00–08:00</p>
+    <p>Send ønskelåter til</p>
+    <p><a href="mailto:heltsjef@morran.no">heltsjef@morran.no</a></p>
+    <p style="margin-top:20px;">Merch kommer snart.</p>
 </div>
 </body>
 </html>
